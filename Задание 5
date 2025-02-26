@@ -1,0 +1,16 @@
+mx=-10**20
+for n in range(1000):
+	a=oct(n)[2:]
+	if n%2==0:
+		a=a.replace('1','2')
+		a=a.replace('3','2')
+		a=a.replace('5','2')
+		a=a.replace('7','2')
+	else:
+		a='3'+a[1:-1]+'3'
+	r=int(a,8)
+	if r<300:
+		mx=max(mx,r)
+print(mx)
+
+# Ответ: 294
