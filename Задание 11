@@ -1,0 +1,7 @@
+from math import ceil
+
+for i in range(1000, 0, -1):
+    if ceil(i*12/8)*718 < 369*2**10:
+        print(i)
+        break
+# Ответ: 350
