@@ -1,0 +1,11 @@
+from itertools import product
+
+a = 'ГЕИНРСЯ'
+p = product(a,repeat=6)
+k=1
+for x in p:
+	x=''.join(x)
+	if 'ГИРЯ' in x:
+		print(x,k)
+	k+=1
+# Ответ: 115381
