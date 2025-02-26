@@ -8,7 +8,7 @@
 # №4
 ![image](https://github.com/user-attachments/assets/61dfc902-5dd6-437e-ba7a-eafb94bb2033)
 # №6
-
+![image](https://github.com/user-attachments/assets/51a817a3-fd33-44f6-8263-9f3ba255f4f2)
 # №7
 
 # №9
