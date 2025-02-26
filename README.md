@@ -14,7 +14,7 @@
 # №9
 ![image](https://github.com/user-attachments/assets/ee7a8ccb-3430-4837-b855-9caf402d34e9)
 # №10
-
+![image](https://github.com/user-attachments/assets/61a902f2-3393-4e8a-9449-02c8492850b8)
 # №11
 
 # №18
