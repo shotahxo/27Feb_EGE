@@ -1,0 +1,12 @@
+from math import ceil
+def f(a,b):
+	if a==b:
+		return 1
+	if a<b or a==26 or a==30:
+		return 0
+	if a>b:
+		return f(a-3,b)+f(ceil(a/2),b)
+	
+print(f(69,14))
+	
+# Ответ: 5
