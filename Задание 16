@@ -1,0 +1,14 @@
+def f(n):
+	if n>2000:
+		return 16
+	if n<=2000:
+		return 2*f(n+3)
+a = f(50)/f(110)
+a = str(int(a))
+a=a.replace('0','1')
+p=1
+for x in a:
+	p*=int(x)
+print(p)
+
+# Ответ: 6720
