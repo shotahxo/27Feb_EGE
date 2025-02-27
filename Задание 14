@@ -1,0 +1,14 @@
+from ipaddress import *
+
+ip = '111.233.75.16'
+net = '111.233.75.0'
+	
+for mask in range(31):
+	k=0
+	n = ip_network(f'{ip}/{mask}',0)
+	if net == str(n.network_address):
+		for x in n.hosts():
+			k+=1
+		print(k)
+		
+# Ответ: 256
