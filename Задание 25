@@ -1,0 +1,33 @@
+def pr(n):
+    if n == 2:
+        return True
+    for i in range(2, int(n**0.5)+1):
+        if n%i == 0:
+            return False
+    return True
+
+def f(n):
+    d = []
+    for x in range(2, int(n**0.5)+1):
+        if n%x == 0:
+            if pr(x):
+                d.append(x)
+            a = n//x
+            if pr(a):
+                d.append(a)
+    if d:
+        return max(d)-min(d)
+    else:
+        return -1
+
+n=3333337
+i=0
+while i<5:
+    n+=1
+    r = f(n)
+    if r>1000 and r%3==0:
+        print(n,r)
+        i+=1
+
+# Ответ: 3333338 9309, 3333340 166665, 3333342 555555, 3333349 2748, 3333354 1287
+	
